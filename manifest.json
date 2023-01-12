@@ -1,0 +1,10 @@
+{
+    "manifest_version: 3",
+    "name: SOC-Aid",
+    "version: 1",
+    "description: SOC-Aid",    
+    "background:" {
+    "service_worker": "main.js"
+}
+
+//may need icons  
