@@ -1,10 +1,16 @@
 {
-    "manifest_version: 3",
-    "name: SOC-Aid",
-    "version: 1",
-    "description: SOC-Aid",    
-    "background:" {
-    "service_worker": "main.js"
+    "manifest_version": 3,
+    "name": "SOC Aid",
+    "version": "1.0",
+    "description": "Broswer Extensions SOC Aid tool!",
+	"background": {
+        "service_worker": "main.js"
+    },
+    "icons": { 
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png" },
+    "permissions": [
+        "contextMenus"
+    ]
 }
-
-//may need icons  
